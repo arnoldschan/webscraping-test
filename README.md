@@ -59,7 +59,7 @@ you may not override `get_wheel` in `Car` class
 
 ## MongoDB understanding (15%): 10 minutes
 
-do `pip install pymongo`
+do `pip install mongomock`
 
 open `answer_3.py`
 

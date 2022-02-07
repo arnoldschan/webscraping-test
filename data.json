@@ -1,0 +1,27 @@
+[
+    {
+        "name": "John",
+        "age": 33,
+        "child": [
+            "bbb",
+            "ccc",
+            "ddd"
+        ]
+    },
+    {
+        "name": "Rick",
+        "age": 31,
+        "child": [
+            "bbb"
+        ]
+    },
+    {
+        "name": "Jane",
+        "age": 43,
+        "child": [
+            "bbb",
+            "ccc",
+            "ddd"
+        ]
+    }
+]
