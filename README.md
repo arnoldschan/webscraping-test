@@ -33,3 +33,20 @@ input length > 1
 
 Provide your answer in `answer_1.py`
 
+## Object-oriented programming (10%) time: 10 minutes
+open `answer_2.py`
+
+extend class `Car` to have `Bike`'s `get_wheel` method but returns 4
+
+Example:
+``` python
+bike = Bike()
+bike.get_wheel()
+>>> 2
+
+car = Car()
+car.get_wheel()
+>>> 4
+```
+
+you may not add any method under `Car` class
