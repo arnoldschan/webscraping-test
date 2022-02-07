@@ -50,3 +50,43 @@ car.get_wheel()
 ```
 
 you may not add any method under `Car` class
+
+## MongoDB understanding (10%): 10 minutes
+
+do `pip install pymongo`
+
+open `answer_3.py`
+
+
+The data is looked like this:
+```json
+{
+    "name" : "John",
+    "age" : 33,
+    "child" : [ 
+        "bbb", 
+        "ccc", 
+        "ddd"
+    ]
+},
+{
+    "name" : "Rick",
+    "age" : 31,
+    "child" : [ 
+        "bbb"
+    ]
+},
+{
+    "name" : "Jane",
+    "age" : 43,
+    "child" : [ 
+        "bbb", 
+        "ccc", 
+        "ddd"
+    ]
+}
+```
+Query the data with the constraint:
+```
+number of child is greater than 3
+```
