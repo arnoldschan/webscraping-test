@@ -7,7 +7,7 @@ Test overview:
 - 40% Web scraping basic project
 
 
-## Data structure & Algorithm understanding (20%) time: 20 minutes
+## Data structure & Algorithm understanding (30%) time: 20 minutes
 
 Generate all possible 2 pair of letters from inputted string, dropping any duplicates
 result is in list, the order is up to you
@@ -32,7 +32,7 @@ input length > 1
 
 Provide your answer in `answer_1.py`
 
-## Object-oriented programming (10%) time: 10 minutes
+## Object-oriented programming (15%) time: 10 minutes
 open `answer_2.py`
 
 extend class `Car` to have `Vehicle`'s `get_wheel` method but returns 4
@@ -57,7 +57,7 @@ car.get_engine()
 
 you may not override `get_wheel` in `Car` class
 
-## MongoDB understanding (10%): 10 minutes
+## MongoDB understanding (15%): 10 minutes
 
 do `pip install pymongo`
 
@@ -97,7 +97,7 @@ Query the data with the constraint:
 number of child is greater than 3
 ```
 
-## Web scraping basic project (20%) 30 minutes
+## Web scraping basic project (40%) 30 minutes
 scrape https://www.kaskus.co.id/channel/5/news
 
 use anything with Python to get 5 pages of news data
