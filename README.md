@@ -1,11 +1,10 @@
 # Web scraper technical test
 
 Test overview:
-- 20% Data structure & Algorithm understanding 
-- 10% Object-oriented programming
-- 10% MongoDB understanding
-- 30% Web scraping basic project
-- 30% API basic project
+- 30% Data structure & Algorithm understanding 
+- 15% Object-oriented programming
+- 15% MongoDB understanding
+- 40% Web scraping basic project
 
 
 ## Data structure & Algorithm understanding (20%) time: 20 minutes
@@ -90,3 +89,8 @@ Query the data with the constraint:
 ```
 number of child is greater than 3
 ```
+
+## Web scraping basic project (20%) 30 minutes
+scrape https://www.kaskus.co.id/channel/5/news
+
+use anything with Python to get 5 pages of news data
