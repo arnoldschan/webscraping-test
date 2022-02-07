@@ -35,20 +35,27 @@ Provide your answer in `answer_1.py`
 ## Object-oriented programming (10%) time: 10 minutes
 open `answer_2.py`
 
-extend class `Car` to have `Bike`'s `get_wheel` method but returns 4
+extend class `Car` to have `Vehicle`'s `get_wheel` method but returns 4
+also `Car` now has additional input `engine` and additonal method `get_engine`
 
 Example:
 ``` python
-bike = Bike()
-bike.get_wheel()
+vehicle = Vehicle('jenny')
+vehicle.get_wheel()
 >>> 2
+vehicle.get_owner()
+>>> 'jenny'
 
-car = Car()
+car = Car('lucas', 'diesel')
 car.get_wheel()
 >>> 4
+car.get_owner()
+>>> 'lucas'
+car.get_engine()
+>>> 'diesel'
 ```
 
-you may not add any method under `Car` class
+you may not override `get_wheel` in `Car` class
 
 ## MongoDB understanding (10%): 10 minutes
 
@@ -94,3 +101,5 @@ number of child is greater than 3
 scrape https://www.kaskus.co.id/channel/5/news
 
 use anything with Python to get 5 pages of news data
+
+Scraping without Selenium is a plus!
