@@ -94,7 +94,7 @@ The data is looked like this:
 ```
 Query the data with the constraint:
 ```
-number of child is greater than 3
+number of child is greater than 2
 ```
 
 ## Web scraping basic project (40%) 30 minutes
