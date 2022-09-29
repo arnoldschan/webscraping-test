@@ -102,8 +102,8 @@ number of child is greater than 2
 ```
 
 ## Web scraping basic project (40%) 30 minutes
-scrape https://www.kaskus.co.id/channel/5/news
+scrape https://kumparan.com/topic/modern-internasional
 
 use anything with Python to get 5 pages of news data
 
-Scraping without Selenium is a plus!
+Emulated browser (e.g: Selenium) is allowed. Other method is a plus
