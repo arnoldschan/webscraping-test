@@ -9,23 +9,27 @@ Test overview:
 
 ## Data structure & Algorithm understanding (30%) time: 20 minutes
 
-Generate all possible 2 pair of letters from inputted string, dropping any duplicates
-result is in list, the order is up to you
+Create a function that able to genarate all possible 2-pair letters with conditions:
+- the pair only begins with vowel letter (a,i,u,e,o)
+- the pair only ends with consonants (b,c,d,f,g, etc)
+- the pair is unique in the array (no duplicates)
+
+result is in array, the order is up to you
 Example:
-``` python
-input: "abc"
-output: ['ab', 'ac', 'ba', 'bc', 'ca', 'cb']
+``` js
+input: "abcdefg"
+output: ['ab', 'ac', 'ad', 'af', 'ag', 'ef', 'eg']
 ```
 
 Example 2:
-``` python
-input: "bba"
-output: ['bb', 'ba', 'ab']
+``` js
+input: "monolith repo"
+output: ['on', 'ol', 'oi','ot', 'oh', 'or', 'op', 'it', 'ih', 'ir', 'ip', 'io', 'ep', 'eo']
 ```
 Example 3:
-``` python
-input: "bbbcd"
-output: ['bb', 'bc', 'bd', 'cb', 'cd', 'db', 'dc']
+``` js
+input: "bbbcd" or "mytho" or ""
+output: []
 ```
 Constraint:
 input length > 1
